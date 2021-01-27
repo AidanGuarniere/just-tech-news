@@ -2,7 +2,7 @@
 const router = require("express").Router();
 
 // imports
-const { User, Post, Vote, Comment } = require("../../models1");
+const { User, Post, Vote, Comment } = require("../../models");
 
 // GET all Users
 router.get("/", (req, res) => {
