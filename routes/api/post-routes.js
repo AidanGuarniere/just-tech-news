@@ -3,7 +3,7 @@ const router = require("express").Router();
 
 //imports
 const sequelize = require("../../config/connection");
-const { Post, User, Vote, Comment } = require("../../models");
+const { Post, User, Vote, Comment } = require("../../models1");
 
 // get all posts
 router.get("/", (req, res) => {
